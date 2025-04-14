@@ -79,13 +79,13 @@
                 font-weight: 600;
             }
             .card-hover {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
 
-.card-hover:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 25px rgba(0,0,0,0.1);
-}
+            .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+            }
         </style>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
@@ -145,7 +145,7 @@
             <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-transparent text-white">
                 <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img id="site-logo" src="{{ asset("img/logo-white.png")}}" class="h-5" alt=" Logo" />
+                        <img id="site-logo" src="{{ asset("img/logo-white.png")}}" class="w-64 h-auto" alt=" Logo" />
                     </a>
                     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>

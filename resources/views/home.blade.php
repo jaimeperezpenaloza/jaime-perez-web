@@ -344,7 +344,7 @@
                     <div>
                         <label class="block text-sm font-semibold mb-1">What is Your Name:</label>
                         <input name="name" type="text" value="{{ old('name') }}"
-                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"  />
+                            class="text-gray-800 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"  />
                         @error('name')
                             <p class="bg-white text-orange-800 text-sm font-medium mt-1 px-3 py-1 rounded shadow-sm">
                                 {{ $message }}
@@ -354,7 +354,7 @@
                     <div>
                         <label class="block text-sm font-semibold mb-1">Your Email Address:</label>
                         <input name="email" type="email" value="{{ old('email') }}"
-                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"  />
+                            class="text-gray-800 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"  />
                         @error('email')
                             <p class="bg-white text-orange-800 text-sm font-medium mt-1 px-3 py-1 rounded shadow-sm">
                                 {{ $message }}
@@ -364,7 +364,7 @@
                     <div>
                         <label class="block text-sm font-semibold mb-1">How can I help you?</label>
                         <textarea name="message" rows="4"
-                            class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500" >{{ old('message') }}</textarea>
+                            class="text-gray-800 w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500" >{{ old('message') }}</textarea>
                         @error('message')
                             <p class="bg-white text-orange-800 text-sm font-medium mt-1 px-3 py-1 rounded shadow-sm">
                                 {{ $message }}
