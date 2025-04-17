@@ -15,7 +15,7 @@ This project was created to showcase my experience as a **Full-Stack Developer**
 - 🙋‍♂️ About section with personal introduction
 - 📄 Resume section with education and work experience
 - 🖼️ Portfolio section with projects and image galleries
-- ✉️ Contact form (non-functional in this version)
+- ✉️ Contact form 
 - 💻 Fully responsive design for mobile, tablet, and desktop
 
 ---
